@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Catalogue de produits | Konekte Biznis</title>
+</head>
+<body>
+    <header class="main-nav">
+        <h1>Catalogue de produits</h1>
+        <p>Découvrez les produits disponibles dans notre commerce.</p>
+    </header>
+    <nav class="main-nav">
+        <a href="index.html">Retour à l'accueil.</a>
+    </nav>
+
+    <main>
+
+        <section>
+
+        <h2>Les produits disponibles en stock</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                <tr>
+                    <th>Produit</th>
+                    <th>Catégorie</th>
+                    <th>Prix</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Riz (5 kg)</td>
+                    <td>Alimentation</td>
+                    <td>1 250 HTG</td>
+                </tr>
+
+                <tr>
+                    <td>Huile (1 litre)</td>
+                    <td>Alimentation</td>
+                    <td>350 HTG</td>
+                </tr>
+
+                <tr>
+                    <td>Savon</td>
+                    <td>Hygiène</td>
+                    <td>150 HTG</td>
+                </tr>
+
+                <tr>
+                    <td>Sucre (1 kg)</td>
+                    <td>Alimentation</td>
+                    <td>200 HTG</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>    
+
+        </section>
+        
+        <section>
+            <h2>Rechercher un produit</h2>
+            <form class="form" action="produits.html" method="get">
+                <label for="recherche">Nom du produit :</label>
+                <input type="text" id="recherche" name="recherche" placeholder="Ex. : Riz, Huile, Savon">
+
+                <label for="categorie">Catégorie :</label>
+                <input type="text" id="categorie" name="categorie" placeholder="Ex. : Alimentation">
+
+                <button type="submit">Rechercher</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 Konekte Biznis — Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

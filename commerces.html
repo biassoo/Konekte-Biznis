@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Liste des commerces | Konekte Biznis</title>
+</head>
+<body>
+    <header class="main-nav">
+        <h1>Découvrez nos commerces</h1>
+        <p>Explorez les commerces participants et consultez leurs produits avant de vous déplacer.</p>
+    </header>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="commerces.html">Découvrir les commerces</a></li>
+            <li><a href="inscription.html">Inscrire mon commerce</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="hero">
+            <h2>Commerces participants</h2>
+            <p>Consultez la liste des commerces participants et explorez leurs produits.</p>
+        </section>
+        <section>
+            <h2>Liste des commerces</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                <tr>
+                    <th>Nom du commerce</th>
+                    <th>Catégorie</th>
+                    <th>Ville</th>
+                    <th>Catalogue</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Marché Soleil</td>
+                    <td>Alimentation</td>
+                    <td>Les Cayes</td>
+                    <td><a href="produits.html">Voir les produits</a></td>
+                </tr>
+                <tr>
+                    <td>Tech Lakay</td>
+                    <td>Informatique</td>
+                    <td>Port-au-Prince</td>
+                    <td><a href="produits.html">Voir les produits</a></td>
+                </tr>
+                <tr>
+                 <td>Lakay Beauté</td>
+                    <td>Beauté et hygiène</td>
+                    <td>Jacmel</td>
+                    <td><a href="produits.html">Voir les produits</a></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        </section>
+
+        <section>
+
+            <h2>Rechercher un commerce</h2>
+
+            <form class="form" action="commerces.html" method="get">
+                
+                <label for="recherche">Nom du commerce :</label>
+                <input type="text" id="recherche" name="recherche" placeholder="Ex. : Marché Soleil">
+                <label for="ville">Ville :</label>
+                <input type="text" id="ville" name="ville" placeholder="Ex. : Port-au-Prince">
+                <button type="submit">Rechercher</button>
+
+            </form>
+
+        </section>
+        
+    </main>
+    <footer>
+        <p>© 2026 Konekte Biznis — Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

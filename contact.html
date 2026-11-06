@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contactez-nous | Konekte Biznis</title>
+</head>
+<body>
+    <header class="main-nav">
+        <h1>Contactez notre équipe</h1>
+        <p>Vous avez une question ou souhaitez inscrire votre commerce ? Nous sommes là pour vous aider.</p>
+    </header>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="commerces.html">Découvrir les commerces</a></li>
+            <li><a href="inscription.html">Inscrire mon commerce</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Comment pouvons-nous vous aider ?</h2>
+            <p>Contactez notre équipe pour obtenir des informations sur la plateforme, les commerces participants ou les modalités d'inscription.</p>
+        </section>
+        <section>
+            <h2>Informations de contact</h2>
+            <ul>
+                <li>Plateforme : Konekte Biznis</li>
+                <li>Zone de service : Haïti</li>
+                <li>Contact : notre équipe de support</li>
+            </ul>
+            <a href="inscription.html">Inscrire mon commerce</a>
+        </section>
+        <section>
+            <h2>Envoyer un message</h2>
+            <form class="form" action="contact.php" method="post">
+                <label for="nom">Nom complet :</label>
+                <input type="text" id="nom" name="nom" placeholder="Ex. : Jean Dupont" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="Ex. : votre@email.com" required>
+
+                <label for="sujet">Sujet :</label>
+                <input type="text" id="sujet" name="sujet" placeholder="Ex. : Question sur la plateforme">
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" placeholder="Ex. : Bonjour, je voudrais obtenir plus d'informations sur..." required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 Konekte Biznis — Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
